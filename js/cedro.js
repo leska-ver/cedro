@@ -145,13 +145,13 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     spaceBetween: 20,
 
-    //Бесконечное листание страниц
-    speed: 2000,//Интервал ожидания
+     //Бесконечное листание страниц
+     speed: 2000, //Интервал ожидания
 
-    autoplay: {
-      delay: 3000,//Интервал ожидания
+     autoplay: {
+       delay: 3000,//Интервал ожидания
          disableOnInteraction: false,      
-    }, 
+     }, 
 
     pagination: {
       el: ".slider__section .slider__pagination",
